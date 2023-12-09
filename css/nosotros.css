@@ -486,3 +486,6 @@ section .column-c{
     padding: 10% 0px;
 }
 
+*{
+    font-family: "Poppins", sans-serif;
+  }
