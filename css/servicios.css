@@ -346,7 +346,7 @@ html{width:100%;height:100%;} */
   width:70%;
   height:auto;
   padding:20px 0;
-  margin:20px auto;
+  margin:20px  auto;
 }
 .container h1{
   font-family:Arial;
@@ -484,7 +484,9 @@ font-size: 18px;
       display: block;
   }
 
-  
+  img{
+    width: 400px;
+  }
   
 }
 
@@ -493,6 +495,9 @@ font-size: 18px;
 
   .car{
       display: block;
+  }
+  img{
+    width: 400px;
   }
  
 }
@@ -673,12 +678,20 @@ a {
   }
 }
 
+.title-servi{
+  text-align: center;
+}
+
 @media screen and (max-width: 500px) {
   .cards-wrapper {
     padding: 4rem 2rem;
   }
   .card {
     max-width: calc(100vw - 4rem);
+  }
+
+  .red-s{
+    width: 20px;
   }
 }
 
@@ -689,5 +702,9 @@ a {
   }
   .info h1 {
     margin: 0;
+  }
+
+  .red-s{
+    width: 20px;
   }
 }
