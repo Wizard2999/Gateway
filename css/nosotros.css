@@ -471,6 +471,7 @@ padding: 0 5%;
 @media (max-width: 768px) {
     .card-n-container {
         grid-template-columns: 1fr;
+        padding: 60px;
     }
 
     .card-n a{
@@ -485,3 +486,6 @@ section .column-c{
     padding: 10% 0px;
 }
 
+*{
+    font-family: "Poppins", sans-serif;
+  }

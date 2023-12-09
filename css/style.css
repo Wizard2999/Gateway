@@ -5,6 +5,7 @@ html {
   margin: 0;
   width: 100%;
 }
+
 body {
   background-image: url("../images/fondo.jpg");
   background-repeat: repeat-y;
@@ -113,6 +114,7 @@ header.header {
   }
   .footer {
     justify-content: start;
+    width: 0;
   }
   .main .container {
     margin-top: 5rem !important;
