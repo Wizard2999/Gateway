@@ -383,7 +383,7 @@ padding: 0 5%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 80px;
-    padding: 0px 140px;
+    padding: 0px 140px 120px;
 }
 
 .card-n {
@@ -406,19 +406,19 @@ padding: 0 5%;
     border: 2px solid rgb(255, 255, 255);
     background: white;
     text-decoration: none;
-    color: #F7E157;
+    color: #fff;
     display: block;
     transition: 0.25s ease;
     background-size: cover;
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 55%, rgba(5, 17, 79, 0.86) 90%)
 }
 
 .card-n a:hover {
     transform: translate(-30px, -30px);
     border-color: #5bc0eb;
-    background-image: none;
+    background-image:  linear-gradient(140deg,#004872 0%,rgba(41,17,96,0.8) 100%),url(../Nosotros/disenamos-a-tu-medida.webp);
     background-color: aliceblue;
-    color: black;
+    color: #fff;
 }
 
 .card-n a:hover .card-n--display {
@@ -439,7 +439,7 @@ padding: 0 5%;
 
 .card-n--display i {
     font-size: 25px;
-    margin-top: 230px;
+    margin-top: 280px;
     text-align: center;
 }
 
@@ -488,4 +488,139 @@ section .column-c{
 
 *{
     font-family: "Poppins", sans-serif;
+  }
+
+  /* accordion.css */
+
+.cont_accordion {
+    color: #333;
+    font-weight: 300;
+    display: flex;
+    margin: 100px 0;
+  }
+
+  .accordion-container {
+    
+    margin-left: 70px;
+  }
+/* ... Other styles ... */
+
+.accordion > input[type="checkbox"] {
+    position: absolute;
+    left: -100vw;
+}
+
+.accordion .content {
+    overflow-y: hidden;
+    height: 0;
+    transition: height 0.3s ease;
+}
+
+.accordion > input[type="checkbox"]:checked ~ .content {
+    height: auto;
+    overflow: visible;
+}
+
+.accordion label {
+    display: block;
+}
+
+/* Styling */
+
+.accordion {
+    margin-bottom: 1em;
+    width: 100%; /* Make the accordion sections full width */
+  }
+  
+  .accordion > input[type="checkbox"]:checked ~ .content {
+    padding: 15px;
+    
+    border-top: 0;
+    width: calc(100% - 30px); /* Adjust width to include padding */
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+  }
+
+.accordion .handle {
+    margin: 0;
+    font-size: 1.125em;
+    line-height: 1.2em;
+}
+
+.accordion label {
+    color: #333;
+    cursor: pointer;
+    font-weight: normal;
+    padding: 15px;
+    background: #e8e8e8;
+    width: calc(100% - 30px); /* Adjust width to include padding */
+    margin-bottom: 1px; /* Add some spacing between sections */
+  }
+
+  .accordion label:hover,
+  .accordion label:focus {
+    background: #0f8dcd;
+}
+
+.accordion-section.selected label {
+    background: #0f8dcd;
+}
+
+.accordion-section.selected .content {
+    padding: 15px;
+    border-top: 0;
+    width: calc(100% - 30px);
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+}
+
+
+.accordion .handle label:before {
+    font-family: 'fontawesome';
+    content: "\f054";
+    display: inline-block;
+    margin-right: 10px;
+    font-size: .58em;
+    line-height: 1.556em;
+    vertical-align: middle;
+}
+
+.accordion > input[type="checkbox"]:checked ~ .handle label:before {
+    content: "\f078";
+}
+
+/* Demo purposes only */
+
+.accordion {
+    max-width: 140em;
+}
+
+.accordion p:last-child {
+    margin-bottom: 0;
+}
+
+.image-container {
+  margin-left: 20px; /* Adjust as needed */
+}
+
+.image-container img {
+  width: 80%; /* Make the image fill the container */
+}
+
+@media screen and (max-width: 768px) {
+    .cont_accordion {
+      flex-direction: column; /* Change to a column layout on smaller screens */
+    }
+  
+    .image-container {
+      margin-left: 90px; /* Remove left margin on smaller screens */
+    }
+
+    .accordion-container {
+        flex: 1; /* Take up the available space */
+        margin-left: 0
+      }
+      section{
+        padding: 0;;
+      }
   }
