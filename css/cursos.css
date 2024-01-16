@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px solid ; */
+}
+
+/* variables */
+body {
+/*  fondos grises  */
+  --bg1: #B4B4B4;
+  --color1: rgb(189, 219, 199);
+  --color2: rgb(240, 200, 200);
+/*  tipografia  */
+  --font: 'Nunito sans', sans-serif;
+  --h1: 55px;
+  --h1-weight: 800;
+  --h2: 34px;
+  --h2-weight: 600;
+  --p: 16px;
+  --p-weight: 600;
+/*  paleta de colores  */
+  --hex1: #3B5472;
+  --hex2: #7D9AB8;
+  --hex3: #E1E2DC;
+}
+
+body {
+  font-family: var(--font);
+  font-weight: var(--p-weight);
+}
+
+
+/* MAIN - MAXWIDTH 1000PX */
+.box {
+  max-width: 100%;
+  margin: 120px auto 80px auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* TARJETAS DE SERVICIOS */
+.card {
+  margin: 0;
+  width: 300px;
+  border: 1px solid ;
+  border-radius:10px;
+}
+
+.img1 {
+  background: url('../img/oracle.png');
+  width: 100%;
+  height: 250px;
+  margin: 0 0 21px 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius:10px;
+  
+}
+.img2 {
+  background: url('https://juandcastro.com/wp-content/uploads/2020/07/certificaciones-google.png');
+  width: 100%;
+  height: 250px;
+  margin: 0 0 21px 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius:10px;
+  
+}
+.img3 {
+  background: url('../img/microsoft.png');
+  width: 100%;
+  height: 250px;
+  margin: 0 0 21px 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius:10px;
+  
+}
+.img4 {
+  background: url('../images/cursos_google.png');
+  width: 100%;
+  height: 250px;
+  margin: 0 0 21px 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius:10px;
+  
+}
+.img5 {
+  background: url('../img/Facebook-Blueprint.-Certificate-como-todo-un-experto-en-Marketing-Digital.jpg');
+  width: 100%;
+  height: 250px;
+  margin: 0 0 21px 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius:10px;
+  
+}
+.img6 {
+  background: url('../img/microsoft.png');
+  width: 100%;
+  height: 250px;
+  margin: 0 0 21px 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius:10px;
+  
+}
+
+.icono {
+  background: url('https://ox4dwg.sn.files.1drv.com/y4mH83tbvjtIXqgREsGvhorG1uf_1fuedIfrvISh53Udc2dlNWTN8sqexYOo1gUP-XOGWFap9TQ28QSIXZFXteG-KEmNpSUX3J5PUPF5PUcVWb967kY3Q9YnHfm1Jo78pvIman0LJRy75IhhZgAO4685Csw30MZ1C2lHYBQmeTh4fLYswuOBYDiWzoZ3f8D9jIDGJJS0pa0hZ2PPfe4VvNhTg?width=600&height=600&cropmode=none');
+  width: 50px;
+  height: 50px;
+  margin: 12px auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.boton {
+  background:#3B5472;
+  display: block;
+  padding: 18px 0px;
+  text-decoration: none;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 8px;
+  margin: 34px 0 0 0;
+}
+.boton:hover {
+  background: var(--hex2);
+}
+
+.paquetes, .talleres {
+  margin: 66px 0 0 0;
+}
+.lineaypresencial{
+    color: #ffffff;
+}
+
+
+/* @media only screen and (max-width: 600px) {
+  .card {
+    display: block ; 
+    width: 100%; /* O cualquier otro valor según tus necesidades para tamaños pequeños */
+  }
+  
+  .box{
+    display: block;
+   
+  }
+}
+
+/* Estilos específicos para tamaños de pantalla medianos */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .card {
+    display: block !important;
+    width: 45%; /* O cualquier otro valor según tus necesidades para tamaños medianos */
+  }
+  .box{
+    display: block;
+  
+  };
+}
+
+/* Estilos específicos para tamaños de pantalla grandes */
+@media only screen and (min-width: 1025px) {
+  .card {
+    width: 30%; /* O cualquier otro valor según tus necesidades para tamaños grandes */
+  }
+} */
