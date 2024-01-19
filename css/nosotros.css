@@ -1,14 +1,22 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
 
+/* Define una nueva regla @font-face para la fuente Font Awesome */
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/webfonts/fa-solid-900.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
 
-section .column-c{
+section .column-c {
     background-color: #131949;
     padding: 10% 0px;
 }
 
-.title-n{
+.title-n {
     text-align: center;
     font-size: 40px;
-    background-image: linear-gradient(140deg,#004872 0%,rgba(41,17,96,0.8) 100%),url(../Nosotros/disenamos-a-tu-medida.webp);
+    background-image: linear-gradient(140deg, #004872 0%, rgba(41, 17, 96, 0.8) 100%), url(../Nosotros/disenamos-a-tu-medida.webp);
     background-position: center;
     background-color: #394de1;
     color: #fff;
@@ -22,13 +30,13 @@ section .column-c{
     justify-content: space-around;
 }
 
-.column-2{
-background-color: #fff;
-padding: 0 5%;
+.column-2 {
+    background-color: #fff;
+    padding: 0 5%;
 }
 
 /*img*/
-.column-2 img{
+.column-2 img {
     width: 100%;
     height: auto;
 }
@@ -48,11 +56,11 @@ padding: 0 5%;
     color: #fff;
 }
 
-.column-3 strong{
+.column-3 strong {
     background: #00ECFB;
     background: -webkit-linear-gradient(to bottom, #00b5d0 0%, #00ECFB 100%);
-    background: -moz-linear-gradient(to bottom,#00b5d0 0%, #00ECFB 100%);
-    background: linear-gradient(to bottom,#00b5d0 0%, #00ECFB 100%);
+    background: -moz-linear-gradient(to bottom, #00b5d0 0%, #00ECFB 100%);
+    background: linear-gradient(to bottom, #00b5d0 0%, #00ECFB 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 50px;
@@ -60,7 +68,7 @@ padding: 0 5%;
     padding: 10px;
 }
 
-.column-f strong{
+.column-f strong {
     background: #00ECFB;
     background: -webkit-linear-gradient(to bottom, #00ECFB 0%, #008BD8 100%);
     background: -moz-linear-gradient(to bottom, #00ECFB 0%, #008BD8 100%);
@@ -71,7 +79,7 @@ padding: 0 5%;
     margin-bottom: 30px;
     text-align: center;
     display: block;
-    }
+}
 
 /* */
 .section-1 {
@@ -89,23 +97,26 @@ padding: 0 5%;
 }
 
 .section-1 .text {
-    text-align: left;
-    font-size: 1.5em;
-    color: #fff;
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: normal;
+    color: #ffffffc0;
     margin: 0 2em 0 2em;
 }
 
+
 .section-1 img {
-    max-width: 100%; /* La imagen ocupará como máximo el 100% del ancho del contenedor */
-    height: auto; /* La altura se ajustará automáticamente para mantener la proporción */
-    padding-right: 90px;
+    max-width: 100%;
+    /* La imagen ocupará como máximo el 100% del ancho del contenedor */
+    height: auto;
+    /* La altura se ajustará automáticamente para mantener la proporción */
 }
 
 .section-2 {
     background: rgba(255, 255, 255, 0.2);
     background-position: center;
-    /*padding-top: 5em;
-    padding-bottom: 5em;*/
+    padding-top: 2em;
+    padding-bottom: 2em;
     border-radius: 12em 0em 0em 12em;
     margin: 0 0 0 100px;
     display: flex;
@@ -116,9 +127,10 @@ padding: 0 5%;
 }
 
 .section-2 .text {
-    text-align: right;
-    font-size: 1.5em;
-    color: #fff;
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: normal;
+    color: #ffffffc0;
     margin: 0 2em 0 2em;
 }
 
@@ -129,160 +141,28 @@ padding: 0 5%;
     margin: 0 2em 0 2em;
 }
 
-.section-3{
+.section-3 {
     text-align: center;
     justify-content: center;
-    font-size: 1.5em;
-    color: #fff;
+    font-size: 1.4em;
+    font-weight: normal;
+    color: #ffffffd2;
     background: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    
+
 }
 
 
-.section-3 .text p{
+.section-3 .text p {
     padding: 2em 2em 2em 2em;
 }
 
-.additional-info{
+.additional-info {
     padding: 5%;
 }
 
-/*---------Cards------------
 
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    padding: 5% 0 5% 0;
-}
-
-.container > * {
-    flex: 1 1 calc(33.33% - 20px); 
-    margin-bottom: 5em;
-    box-sizing: border-box;
-}
-
-.container .card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.container .card .face {
-    width:600px;
-    transition: 0.5s;
-}
-
-.container .card .face.face1 {
-    position: relative;
-    display: flex;
-    align-items: center;
-    z-index: 1;
-    transform: translateY(auto);
-    border-radius: 30px 30px 30px 30px;
-    background-image: linear-gradient(140deg,#004872 0%,rgba(41,17,96,0.8) 100%),url(./img/disenamos-a-tu-medida.png);
-    background-position: center;
-    background-color: #394de1;
-    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
-
-}
-
-.container .card:hover .face.face1 {
-    background: #394de1;
-    transform: translateY(0);
-}
-
-.container .card .face.face1 .content {
-    opacity: 0.5;
-    transition: 0.5s;
-    width: 400px;
-    text-align: center;
-}
-
-.container .card:hover .face.face1 .content {
-    opacity: 1;
-}
-
-.card .face.face1 img {
-    width: auto;
-    height: 300px;
-}
-
-.container .card .face.face1 .content h3 {
-    color: #fff;
-    font-size: 1.5em;
-}
-
-
-.container .card .face.face2 {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 40px;
-    box-sizing: border-box;
-    margin-top: -210px;
-    border-radius: 0px 0px 30px 30px;
-    top:-20px;
-}
-
-.container .card:hover .face.face2 {
-    margin-top: 0;
-}
-
-.container .card .face.face2 .content p {
-    margin: 0;
-    padding: 0;
-    color: #fff;
-}
-
-.container .card .face.face2 .content a {
-    margin: 15px 0 0;
-    display: inline-block;
-    text-decoration: none;
-    font-weight: 900;
-    color: #ffffff;
-    padding: 5px;
-    border: 1px solid #ffffff;
-}
-
-.container .card .face.face2 .content a:hover {
-    background: #ffffff;
-    color:#131949;
-}
-
-.face.face1 {
-    background: #333;
-    color: white;
-}
-
-.face.face1 img{
-    width:auto;
-    height:10%;
-    border-radius: 20px 20px 20px 20px;
-}
-
-.face.face2 {
-    background: rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(10px);
-}
-
-
-.face .content h4{
-    font-size: 1.2em;
-}
-
-.face .content a {
-    text-decoration: none;
-    font-weight: 900;
-    color: #333;
-    padding: 5px;
-    border: 1px solid #333;
-}
-*/
 /*responsive*/
 /*columns*/
 
@@ -291,11 +171,11 @@ padding: 0 5%;
     section {
         padding: 20px;
         position: relative;
-    } 
+    }
 }
 
 @media (max-width: 480px) {
-    
+
     section {
         padding: 20px;
         position: relative;
@@ -307,73 +187,37 @@ padding: 0 5%;
         flex-direction: column;
         padding: 5em 0 0 0;
         border-radius: 0em 10em 10em 0em;
-        margin:30px 0
+        margin: 30px 0
+    }
+
+    .section-1 img{
+        max-width: 50%;
+        height: auto;
+        margin-right: 7em;
+        padding-left:90px;
     }
 
     .section-2 {
         flex-direction: column;
         padding: 0 0 5em 0;
         border-radius: 10em 0em 0em 10em;
-        margin:30px 0
+        margin: 30px 0
+    }
+
+    .section-2 img {
+        max-width: 50%;
+        height: auto;
+        border-radius: 50%;
+        margin: 0 2em 0 2em;
+        padding-left: 90px;
     }
 }
 
-/*cards
-
-@media (max-width: 768px) {
-
-    .container .card .face {
-        width: 370px;
-        height: 250px;
-        transition: 0.5s;
-    }
-
-    .container .card .face.face2 {  
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 20px;
-        box-sizing: border-box;
-        box-shadow: 0 20px 50px rgba(56, 55, 55, 0.8);
-        margin-top: -230px;
-        border-radius: 30px 30px 30px 30px;
-        top:-20px;
-    }
-
-    .container .card .face.face1 .content {
-        opacity: 0.5;
-        transition: 0.5s;
-        margin-left: 5px;
-    width: 400px;
-
-    }
-
-    .card .face.face1 img{
-        width:auto;
-        height:100%;
-    }
-
-    .face.face1 img{
-        border-radius: 20px 20px 20px 20px;
-    }
-
-    .face.face2 .content {
-        padding-top: 30px;
-    }
-}
-
-@media (max-width: 480px) {
-    .card {
-        width: calc(100% - 20px);
-    }
-}
-*/
+/*cards*/
 
 .container {
     display: flex;
     flex-wrap: wrap;
-    font-family: "Ubuntu", sans-serif;
     margin: 60px 0;
 }
 
@@ -387,7 +231,7 @@ padding: 0 5%;
 }
 
 .card-n {
-    font-weight: bold;
+    font-weight: normal;
     position: relative;
     width: 100%;
     background-size: contain;
@@ -416,7 +260,7 @@ padding: 0 5%;
 .card-n a:hover {
     transform: translate(-30px, -30px);
     border-color: #5bc0eb;
-    background-image:  linear-gradient(140deg,#004872 0%,rgba(41,17,96,0.8) 100%),url(../Nosotros/disenamos-a-tu-medida.webp);
+    background-image: linear-gradient(140deg, #004872 0%, rgba(41, 17, 96, 0.8) 100%), url(../Nosotros/disenamos-a-tu-medida.webp);
     background-color: aliceblue;
     color: #fff;
 }
@@ -462,7 +306,7 @@ padding: 0 5%;
 
 .card-n--hover p.link {
     margin: 20px 0 0;
-    font-weight: bold;
+    
     color: #5bc0eb;
 }
 
@@ -474,38 +318,35 @@ padding: 0 5%;
         padding: 60px;
     }
 
-    .card-n a{
+    .card-n a {
         height: 450px;
         border: none;
     }
 }
 
 
-section .column-c{
+section .column-c {
     background-color: #131949;
     padding: 10% 0px;
 }
 
-*{
-    font-family: "Poppins", sans-serif;
-  }
-
-  /* accordion.css */
+/* accordion.css */
 
 .cont_accordion {
     color: #333;
     font-weight: 300;
     display: flex;
     margin: 100px 0;
-  }
+}
 
-  .accordion-container {
-    
+.accordion-container {
+
     margin-left: 70px;
-  }
+}
+
 /* ... Other styles ... */
 
-.accordion > input[type="checkbox"] {
+.accordion>input[type="checkbox"] {
     position: absolute;
     left: -100vw;
 }
@@ -516,7 +357,7 @@ section .column-c{
     transition: height 0.3s ease;
 }
 
-.accordion > input[type="checkbox"]:checked ~ .content {
+.accordion>input[type="checkbox"]:checked~.content {
     height: auto;
     overflow: visible;
 }
@@ -529,17 +370,20 @@ section .column-c{
 
 .accordion {
     margin-bottom: 1em;
-    width: 100%; /* Make the accordion sections full width */
-  }
-  
-  .accordion > input[type="checkbox"]:checked ~ .content {
+    width: 100%;
+    /* Make the accordion sections full width */
+}
+
+.accordion>input[type="checkbox"]:checked~.content {
     padding: 15px;
-    
+
     border-top: 0;
-    width: calc(100% - 30px); /* Adjust width to include padding */
+    width: calc(100% - 30px);
+    /* Adjust width to include padding */
     background: rgba(255, 255, 255, 0.2);
-    color: #fff;
-  }
+    color: #ffffffc0;
+    font-weight: normal;
+}
 
 .accordion .handle {
     margin: 0;
@@ -553,12 +397,14 @@ section .column-c{
     font-weight: normal;
     padding: 15px;
     background: #e8e8e8;
-    width: calc(100% - 30px); /* Adjust width to include padding */
-    margin-bottom: 1px; /* Add some spacing between sections */
-  }
+    width: calc(100% - 30px);
+    /* Adjust width to include padding */
+    margin-bottom: 1px;
+    /* Add some spacing between sections */
+}
 
-  .accordion label:hover,
-  .accordion label:focus {
+.accordion label:hover,
+.accordion label:focus {
     background: #0f8dcd;
 }
 
@@ -576,7 +422,7 @@ section .column-c{
 
 
 .accordion .handle label:before {
-    font-family: 'fontawesome';
+    font-family: 'FontAwesome', sans-serif;
     content: "\f054";
     display: inline-block;
     margin-right: 10px;
@@ -585,7 +431,7 @@ section .column-c{
     vertical-align: middle;
 }
 
-.accordion > input[type="checkbox"]:checked ~ .handle label:before {
+.accordion>input[type="checkbox"]:checked~.handle label:before {
     content: "\f078";
 }
 
@@ -600,27 +446,32 @@ section .column-c{
 }
 
 .image-container {
-  margin-left: 20px; /* Adjust as needed */
+    margin-left: 20px;
 }
 
 .image-container img {
-  width: 80%; /* Make the image fill the container */
+    width: 80%;
 }
 
-@media screen and (max-width: 768px) {
-    .cont_accordion {
-      flex-direction: column; /* Change to a column layout on smaller screens */
+
+@media (max-width: 768px) {
+    .accordion{
+        padding: 0;
     }
-  
-    .image-container {
-      margin-left: 90px; /* Remove left margin on smaller screens */
+    
+    .image-container img {
+      display: none; 
     }
 
-    .accordion-container {
-        flex: 1; /* Take up the available space */
-        margin-left: 0
-      }
-      section{
-        padding: 0;;
-      }
+    .accordion-container{
+        margin: 0;
+    }
+
+    .cont_accordion{
+        display: block ruby;
+    }
   }
+
+/*  * {
+    font-family: "Poppins", sans-serif;
+}*/

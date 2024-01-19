@@ -298,6 +298,10 @@ h1.title {
   opacity: 0;
 }
 
+/*responsive*/
+
+/*celular*/
+
 @media screen and (max-width:600px) {
   .imagen-main img {
     display: none;
@@ -311,6 +315,49 @@ h1.title {
     font-size: 2.5rem;
   }
 }
+/*Tablet*/
+
+@media screen and (max-width:1024px){
+
+  .imagen-main img{
+    width: 110%;
+  }
+
+  .title-index{
+    font-size: 1.7rem;
+  }
+
+
+  
+  .text-primary .div{
+    width: 100%;
+    text-align: center;
+  }
+
+
+
+  .title .p{
+  font-size: 1.4rem;
+  font-weight: 100;
+  color: #ffffff;
+  text-align: center;
+  max-width: max-content;
+  width: fit-content;
+  margin: 0 30px;
+  }
+
+  .info{
+    justify-content: center;
+  }
+
+  .info div{
+    max-width: 650px;
+  }
+
+  
+
+}
+
 
 * {
   font-family: "Poppins", sans-serif;

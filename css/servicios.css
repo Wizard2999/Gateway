@@ -435,7 +435,7 @@ html{width:100%;height:100%;} */
 .car{
   display: flex;
 
-  padding: 1% 3% 1% 3%;
+  padding: 1% 3%;
 }
 
 .formu1{
@@ -488,6 +488,13 @@ font-size: 18px;
     width: 400px;
   }
   
+  .image{
+    width: max-content;
+  }
+
+  .gest2{
+    
+  }
 }
 
 /* Estilos para dispositivos móviles (ancho máximo de 480px) */

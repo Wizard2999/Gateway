@@ -217,9 +217,17 @@
   color: white;
 }
 
-@media screen and (max-width:868px) {
+@media screen and (max-width:600px){
+  #div-1 div img,#div-2 div img ,#div-3 div img{
+width: 70%;
+  }
+
+}
+
+@media screen and (max-width:809px) {
   .inversion .div-inversion{
     justify-content: center;
+    padding: 11%;
   }
   .inversion .p{
     padding: 0;
@@ -255,6 +263,9 @@
   }
   .div-inversion .div-contain{
     min-height: 750px;
+  }
+  #div-1 div img,#div-2 div img ,#div-3 div img{
+    width: 50%;
   }
 
 }

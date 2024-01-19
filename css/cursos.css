@@ -37,14 +37,16 @@ body {
   margin: 120px auto 80px auto;
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 /* TARJETAS DE SERVICIOS */
-.card {
+.card-programas {
   margin: 0;
-  width: 300px;
+  width: 500px;
   border: 1px solid ;
   border-radius:10px;
+  margin: 20px 0;
 }
 
 .img1 {
@@ -78,6 +80,8 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   border-radius:10px;
+  background-size: contain;
+  background-color: #fff;
   
 }
 .img4 {
@@ -89,6 +93,8 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   border-radius:10px;
+  background-size: contain;
+  background-color: #fff;
   
 }
 .img5 {
@@ -111,7 +117,8 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   border-radius:10px;
-  
+  background-size: contain;
+  background-color: #fff;
 }
 
 .icono {
@@ -153,14 +160,10 @@ h2 {
 /* @media only screen and (max-width: 600px) {
   .card {
     display: block ; 
-    width: 100%; /* O cualquier otro valor según tus necesidades para tamaños pequeños */
+    width: 100%; /* O cualquier otro valor según tus necesidades para tamaños pequeños 
   }
-  
-  .box{
-    display: block;
-   
-  }
-}
+  */
+
 
 /* Estilos específicos para tamaños de pantalla medianos */
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
@@ -168,10 +171,6 @@ h2 {
     display: block !important;
     width: 45%; /* O cualquier otro valor según tus necesidades para tamaños medianos */
   }
-  .box{
-    display: block;
-  
-  };
 }
 
 /* Estilos específicos para tamaños de pantalla grandes */
@@ -179,4 +178,4 @@ h2 {
   .card {
     width: 30%; /* O cualquier otro valor según tus necesidades para tamaños grandes */
   }
-} */
+} 
