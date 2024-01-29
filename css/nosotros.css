@@ -8,6 +8,10 @@
   font-style: normal;
 }
 
+*{
+    border: 1px solid black;
+}
+
 section .column-c {
     background-color: #131949;
     padding: 10% 0px;
@@ -135,7 +139,7 @@ section .column-c {
 }
 
 .section-2 img {
-    max-width: 100%;
+    max-width: 70%;
     height: auto;
     border-radius: 50%;
     margin: 0 2em 0 2em;
@@ -239,7 +243,7 @@ section .column-c {
     background-repeat: no-repeat;
 }
 
-.car img {
+.card img {
     width: 100%;
     height: auto;
 }
@@ -470,6 +474,11 @@ section .column-c {
     .cont_accordion{
         display: block ruby;
     }
+  }
+
+
+  .image-container{
+    width: 80px;
   }
 
 /*  * {
