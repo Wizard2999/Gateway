@@ -494,10 +494,7 @@
         margin: 10px;
     }
 
-    .footer {
-        width: 0;
-    }
-
+   
     section h4 {
         margin-top: 270px
     }
@@ -575,9 +572,7 @@
         margin: 10px;
     }
 
-    .footer {
-        width: 0;
-    }
+    
 }
 
 * {

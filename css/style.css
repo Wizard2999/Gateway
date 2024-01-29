@@ -7,7 +7,7 @@ html {
 }
 
 body {
-   background-image: url("../images/fondo 3.jpg"); 
+   background-image: url("../images/fondo 7.jpg"); 
    /* background-image: url("../images/fondo.jpg");  */
   background-repeat: repeat-y;
   background-size: cover;
@@ -41,7 +41,7 @@ header.header {
   list-style-type: none;
 }
 .links a {
-  color: rgb(255, 255, 255);
+  color: rgb(132, 206, 252);
   text-decoration: none;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
@@ -66,8 +66,8 @@ header.header {
   color: white;
   font-weight: 900;
 }
-/* Footer */
-.footer {
+
+ .footer {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -75,20 +75,20 @@ header.header {
   align-items: center;
   padding: 1rem;
   background-color: rgba(19, 25, 73, 0.549);
-}
+}  
 
-.footer ul {
+ .footer ul {
   text-decoration: none;
   list-style: none;
   color: white;
   text-align: start;
-}
+} 
 
 .footer a {
   color: white;
   text-decoration: none;
-}
-#down,
+} 
+ #down,
 #up {
   font-size: 1.2rem;
   background-color: white;
@@ -100,12 +100,14 @@ header.header {
   box-shadow: 5px 5px 1rem black;
   opacity: 0;
 }
+
+
 @media screen and (max-width: 1024px) {
 
   body{
-  background-image: url("../images/fondo 3.jpg");
+  background-image: url("../images/fondo.jpg");
   /* background-repeat: repeat-y; */
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-size: contain;
   background-attachment: scroll;
   font-family: "Poppins", sans-serif;
@@ -128,7 +130,11 @@ header.header {
   .footer {
     justify-content: start;
     width: 0;
+   width: 100%;
   }
+
+
+
   .main .container {
     margin-top: 5rem !important;
   }
@@ -159,3 +165,56 @@ header.header {
     display: block;
   }
 }
+
+
+
+
+@media (min-width: 600px) {
+  .footer {
+
+    padding-left: 0 auto;
+    padding-right: 0 auto ;
+      grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 768px) {
+  .footer {
+      grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+  body{
+    background-image: url("../images/fondo 7.jpg");
+    background-repeat: repeat-y;
+    background-repeat: repeat;
+    background-size: contain;
+    background-attachment: scroll;
+    font-family: "Poppins", sans-serif;
+    color: rgb(222, 243, 243);
+    transition: all 5s linear;
+
+    }
+
+
+
+
+  }
+    @media only screen and (min-width: 768px) {
+      body{
+        background-image: url("../images/fondo 7.jpg");
+        background-repeat: repeat-y;
+        background-repeat: repeat;
+        background-size: contain;
+        background-attachment: scroll;
+        font-family: "Poppins", sans-serif;
+        color: rgb(222, 243, 243);
+        transition: all 5s linear;
+  }
+ 
+}
+
