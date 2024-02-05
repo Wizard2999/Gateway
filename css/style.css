@@ -105,7 +105,7 @@ header.header {
 @media screen and (max-width: 1024px) {
 
   body{
-  background-image: url("../images/fondo.jpg");
+  background-image: url("../images/fondo 9.avif");
   /* background-repeat: repeat-y; */
   background-repeat: repeat;
   background-size: contain;
@@ -189,7 +189,7 @@ header.header {
 
 @media only screen and (max-width: 768px) {
   body{
-    background-image: url("../images/fondo 7.jpg");
+    background-image: url("../images/fondo 12.jpg");
     background-repeat: repeat-y;
     background-repeat: repeat;
     background-size: contain;
@@ -206,7 +206,7 @@ header.header {
   }
     @media only screen and (min-width: 768px) {
       body{
-        background-image: url("../images/fondo 7.jpg");
+        background-image: url("../images/fondo 12.jpg");
         background-repeat: repeat-y;
         background-repeat: repeat;
         background-size: contain;

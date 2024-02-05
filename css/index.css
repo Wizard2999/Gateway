@@ -1,4 +1,6 @@
 /* Seccion principal */
+
+
 .text-primary {
   width: 100%;
   display: flex;
@@ -7,6 +9,7 @@
   height: 100%;
   align-items: center;
   margin-bottom: 3rem;
+  
 }
 
 .text-primary .div {
@@ -38,6 +41,7 @@
 }
 
 .letter-animation span {
+  
   font-size: 4rem;
   opacity: 0;
   transform: translateX(-100%);
@@ -353,7 +357,9 @@ h1.title {
   .info div{
     max-width: 650px;
   }
-
+.p{
+  color:black;
+}
   
 
 }
@@ -366,4 +372,10 @@ h1.title {
 
 * {
   font-family: "Poppins", sans-serif;
+
+  
+}
+
+body{
+  color:black;
 }
