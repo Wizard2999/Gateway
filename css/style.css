@@ -6,6 +6,15 @@ html {
   width: 100%;
 }
 
+.bg-backwhite{
+  background: rgb(19,25,73);
+  background: -moz-linear-gradient(90deg, rgba(19,25,73,0.49761911600577735) 0%, rgba(43,167,228,0.5032213569021359) 69%, rgba(116,198,237,0.5004202364539565) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(19,25,73,0.49761911600577735) 0%, rgba(43,167,228,0.5032213569021359) 69%, rgba(116,198,237,0.5004202364539565) 100%);
+  background: linear-gradient(90deg, rgba(19,25,73,0.49761911600577735) 0%, rgba(43,167,228,0.5032213569021359) 69%, rgba(116,198,237,0.5004202364539565) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#131949",endColorstr="#74c6ed",GradientType=1); 
+  backdrop-filter: blur(5px);
+}
+
 body {
    background-image: url("../images/fondo 7.jpg"); 
    /* background-image: url("../images/fondo.jpg");  */
@@ -27,7 +36,7 @@ header.header {
   height: 90px;
   align-items: center;
   width: 100%;
-  background-color: transparent;
+  background-color: rgba(0, 0, 153, 0.74);
   box-shadow: 2px 2px 2rem black;
 }
 .header nav.links {
@@ -54,7 +63,7 @@ header.header {
   z-index: -1;
   position: fixed;
   height: 90px;
-  background-color: rgba(28, 28, 195, 0.037);
+  background-color: rgba(36, 60, 153, 0.78);;
   width: 100%;
   backdrop-filter: blur(5px);
 }

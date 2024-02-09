@@ -12,6 +12,8 @@
     border: 1px solid black;
 }
 
+
+
 section .column-c {
     background-color: #131949;
     padding: 10% 0px;
@@ -87,7 +89,12 @@ section .column-c {
 
 /* */
 .section-1 {
-    background: rgba(255, 255, 255, 0.2);
+    background: rgb(19,25,73);
+  background: -moz-linear-gradient(90deg, rgba(19,25,73,0.49761911600577735) 0%, rgba(43,167,228,0.5032213569021359) 69%, rgba(116,198,237,0.5004202364539565) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(19,25,73,0.49761911600577735) 0%, rgba(43,167,228,0.5032213569021359) 69%, rgba(116,198,237,0.5004202364539565) 100%);
+  background: linear-gradient(90deg, rgba(19,25,73,0.49761911600577735) 0%, rgba(43,167,228,0.5032213569021359) 69%, rgba(116,198,237,0.5004202364539565) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#131949",endColorstr="#74c6ed",GradientType=1); 
+  backdrop-filter: blur(5px);
     background-position: center;
     padding-top: 2em;
     padding-bottom: 2em;
@@ -96,7 +103,7 @@ section .column-c {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 5px solid #fff;
+    border: 5px solid #10109e75;
     border-left: 1px #fff;
 }
 
@@ -104,7 +111,7 @@ section .column-c {
     text-align: center;
     font-size: 1.4em;
     font-weight: normal;
-    color: #ffffffc0;
+    color: #3c3163;
     margin: 0 2em 0 2em;
 }
 
@@ -117,7 +124,12 @@ section .column-c {
 }
 
 .section-2 {
-    background: rgba(255, 255, 255, 0.2);
+    background: rgb(19,25,73);
+    background: -moz-linear-gradient(90deg, rgba(19,25,73,0.49761911600577735) 0%, rgba(43,167,228,0.5032213569021359) 69%, rgba(116,198,237,0.5004202364539565) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(19,25,73,0.49761911600577735) 0%, rgba(43,167,228,0.5032213569021359) 69%, rgba(116,198,237,0.5004202364539565) 100%);
+    background: linear-gradient(90deg, rgba(19,25,73,0.49761911600577735) 0%, rgba(43,167,228,0.5032213569021359) 69%, rgba(116,198,237,0.5004202364539565) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#131949",endColorstr="#74c6ed",GradientType=1); 
+    backdrop-filter: blur(5px);
     background-position: center;
     padding-top: 2em;
     padding-bottom: 2em;
@@ -126,7 +138,7 @@ section .column-c {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 5px solid #fff;
+    border: 5px solid #10109e75;
     border-right: 1px #fff;
 }
 
@@ -134,7 +146,7 @@ section .column-c {
     text-align: center;
     font-size: 1.4em;
     font-weight: normal;
-    color: #ffffffc0;
+    color: #3c3163;
     margin: 0 2em 0 2em;
 }
 
@@ -150,11 +162,11 @@ section .column-c {
     justify-content: center;
     font-size: 1.4em;
     font-weight: normal;
-    color: #ffffffd2;
+    color: #3c3163;
     background: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-
+    margin-bottom: 5%;
 }
 
 
@@ -287,7 +299,7 @@ section .column-c {
 
 .card-n--display i {
     font-size: 25px;
-    margin-top: 280px;
+    margin-top: 200px;
     text-align: center;
 }
 
@@ -380,12 +392,16 @@ section .column-c {
 
 .accordion>input[type="checkbox"]:checked~.content {
     padding: 15px;
-
     border-top: 0;
     width: calc(100% - 30px);
     /* Adjust width to include padding */
-    background: rgba(255, 255, 255, 0.2);
-    color: #ffffffc0;
+    background: rgb(19,25,73);
+    background: -moz-linear-gradient(90deg, rgba(19,25,73,0.49761911600577735) 0%, rgba(43,167,228,0.5032213569021359) 69%, rgba(116,198,237,0.5004202364539565) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(19,25,73,0.49761911600577735) 0%, rgba(43,167,228,0.5032213569021359) 69%, rgba(116,198,237,0.5004202364539565) 100%);
+    background: linear-gradient(90deg, rgba(19,25,73,0.49761911600577735) 0%, rgba(43,167,228,0.5032213569021359) 69%, rgba(116,198,237,0.5004202364539565) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#131949",endColorstr="#74c6ed",GradientType=1); 
+    backdrop-filter: blur(5px);
+    color: #3c3163;
     font-weight: normal;
 }
 
@@ -396,11 +412,15 @@ section .column-c {
 }
 
 .accordion label {
-    color: #333;
+    color:  #fff;
     cursor: pointer;
     font-weight: normal;
     padding: 15px;
-    background: #e8e8e8;
+    background: rgb(19,25,73);
+    background: -moz-linear-gradient(90deg, rgba(19,25,73,1) 0%, rgba(43,167,228,1) 69%, rgba(116,198,237,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(19,25,73,1) 0%, rgba(43,167,228,1) 69%, rgba(116,198,237,1) 100%);
+    background: linear-gradient(90deg, rgba(19,25,73,1) 0%, rgba(43,167,228,1) 69%, rgba(116,198,237,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#131949",endColorstr="#74c6ed",GradientType=1);
     width: calc(100% - 30px);
     /* Adjust width to include padding */
     margin-bottom: 1px;
@@ -409,11 +429,14 @@ section .column-c {
 
 .accordion label:hover,
 .accordion label:focus {
+    /*background: #0f8dcd;*/
     background: #0f8dcd;
+    color: #fff;
 }
 
 .accordion-section.selected label {
-    background: #0f8dcd;
+    /*background: #0f8dcd;*/
+    
 }
 
 .accordion-section.selected .content {
